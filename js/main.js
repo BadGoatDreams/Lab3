@@ -133,7 +133,7 @@ function pointToLayer(feature, latlng) {
 
     // Create marker options
     var geojsonMarkerOptions = {
-        fillColor: "#2BD438",
+        fillColor: "#c9a022",
         color: "#2BC7D4",
         weight: 1,
         opacity: 0.8,
@@ -214,7 +214,7 @@ function addLegend() {
             // Create a label with a circle and the population range
             labels.push(
                 '<div style="display: flex; align-items: center; margin-bottom: 8px;">' +
-                '<i style="background: #2BD438; width: ' + (radius * 2) + 'px; height: ' + (radius * 2) + 'px; border-radius: 50%; display: inline-block; margin-right: 8px;"></i> ' +
+                '<i style="background: #c9a022; width: ' + (radius) + 'px; height: ' + (radius ) + 'px; border-radius: 50%; display: inline-block; margin-right: 8px;"></i> ' +
                 '<span>' + from + (to ? '–' + to : '+') + '</span>' +
                 '</div>'
             );
